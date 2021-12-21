@@ -2,9 +2,6 @@
 #include <avr/interrupt.h>
 #include <avr/sfr_defs.h>
 #include <util/delay.h>
-#include <stdbool.h>
-
-uint8_t cnt;
 
 void GPIO_Config(void);
 void TIMER2_Config(void);
@@ -14,7 +11,6 @@ void TIMER2_SetOCR2A(unsigned char value);
 
 int main()
 {
-	cnt = 0;
 	GPIO_Config();
 	TIMER2_Config();
 
@@ -27,13 +23,11 @@ int main()
 			TIMER2_SetOCR2A(i);
 			_delay_ms(8);
 		}
-
 		for(uint8_t i = 255; i > 1; i--)
 		{
 			TIMER2_SetOCR2A(i);
 			_delay_ms(8);
 		}
-
 	}
 	return 0;
 }
@@ -52,7 +46,7 @@ void TIMER2_Config()
 {
 	TCCR2A |= _BV(WGM21);
 	TIMSK2 |= _BV(OCIE2A);
-	TCCR2B |= _BV(CS20);
+	TCCR2B |= _BV(CS21);
 }
 
 void TIMER2_SetOCR2A(unsigned char value)
