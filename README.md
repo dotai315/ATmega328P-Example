@@ -14,4 +14,4 @@ This github follow source from: https://www.nongnu.org/avr-libc/user-manual/inde
 <h2>Software Require</h2> 
 <h3>Linux(Debian):</h3>
 <p> Try this command on your terminal:</p>
-<p style="background-color:rgb(140, 140, 140);">sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude</p>
+<p style="background-color:Tomato;">sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude</p>
