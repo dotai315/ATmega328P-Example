@@ -14,4 +14,6 @@ This github follow source from: https://www.nongnu.org/avr-libc/user-manual/inde
 <h2>Software Require</h2> 
 <h3>Linux(Debian):</h3>
 <p> Try this command on your terminal:</p>
-<p style="background-color:Tomato;">sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude</p>
+<p style="background-color:rgb(140, 140, 140);">sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude</p>
+<h3>Windows:</h3>
+<p> You can use Microchip Studio, follow this link: https://onlinedocs.microchip.com/pr/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-2/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499</pr>
