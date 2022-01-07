@@ -12,8 +12,11 @@ This github follow source from: https://www.nongnu.org/avr-libc/user-manual/inde
 <p>Other: some electronics component such as resistor, capacitor and button</pr> 
 <p>Note: You should buy USBASP from this store if you do not want to install driver: https://www.thegioiic.com/products/mach-nap-usbasp-usbisp-51-avr</p>
 <h2>Software Require</h2> 
-<h3>Linux(Debian):</h3>
-<p> Try this command on your terminal:</p>
-<p style="background-color:rgb(140, 140, 140);">sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude</p>
-<h3>Windows:</h3>
-<p> You can use Microchip Studio, follow this link: https://onlinedocs.microchip.com/pr/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-2/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499</pr>
+Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
+<p>Note:</p>
+<p> - On Windows, you can use Microchip Studio: https://onlinedocs.microchip.com/pr/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-2/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499</pr>
+<p> - Install ProISP to upload code: http://dammedientu.vn/huong-dan-cach-nap-chuong-trinh-cho-atmega8-16-32-voi-mach-nap-usbisp-bid13-html/ 
+<h2>How to use</h2>
+<h3>Step 1: Remove the bootloader if you use Arduino Uno R3</h3>
+<p> On Linux, you just use Makefile from my github when upload hex file for microcontroller</p>
+<p> On Windows, open your proisp and 
