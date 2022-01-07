@@ -18,5 +18,3 @@ Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
 <p> - Install ProISP to upload code: http://dammedientu.vn/huong-dan-cach-nap-chuong-trinh-cho-atmega8-16-32-voi-mach-nap-usbisp-bid13-html/ 
 <h2>How to use</h2>
 <h3>Step 1: Remove the bootloader if you use Arduino Uno R3</h3>
-<p> On Linux, you just use Makefile from my github when upload hex file for microcontroller</p>
-<p> On Windows, open your proisp and 
