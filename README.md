@@ -25,6 +25,8 @@ Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
 <pre>
 avrdude -p m328p -c usbasp -e 
 </pre>
+<p>With proisp</p>
+press ERASE button on proisp program
 <h3>Step 3: Get my example</h3>
 <pre>
 git clone https://github.com/dotai315/ATmega328P-Example.git
