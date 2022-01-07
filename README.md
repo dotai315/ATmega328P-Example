@@ -12,4 +12,4 @@ This github follow source from: https://www.nongnu.org/avr-libc/user-manual/inde
 <p>Other: some electronics component such as resistor, capacitor and button</pr> 
 <p>Note: You should buy USBASP from this store if you do not want to install driver: https://www.thegioiic.com/products/mach-nap-usbasp-usbisp-51-avr</p>
 <h2>Software Require</h2> 
-<h4>Linux</h4>
+<h3>Linux:</h3>
