@@ -32,5 +32,14 @@ git clone https://github.com/dotai315/ATmega328P-Example.git
 <h3>Step 4: First Example</h3>
 <p> On Linux </p>
 <pre>
-cd Get_Started
+cd 'Get Started'/blink
+make
+make flash
 </pre>
+On Windows
+with Terminal: access the directory Get Started/blink, open terminal in here.
+<pre>
+make
+make flash
+</pre>
+with Microchip Studio: create project and get my code to your project, then build and using proisp to upload hex file for microcontroller
