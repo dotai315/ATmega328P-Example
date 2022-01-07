@@ -38,7 +38,7 @@ cd 'Get Started'/blink
 make
 make flash
 </pre>
-On Windows
+<p>On Windows</p>
 with Terminal: access the directory Get Started/blink, open terminal in here.
 <pre>
 make
