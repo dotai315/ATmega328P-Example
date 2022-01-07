@@ -17,4 +17,6 @@ Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
 <p> - On Windows, you can use Microchip Studio: https://onlinedocs.microchip.com/pr/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-2/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499</pr>
 <p> - Install ProISP to upload code: http://dammedientu.vn/huong-dan-cach-nap-chuong-trinh-cho-atmega8-16-32-voi-mach-nap-usbisp-bid13-html/ 
 <h2>How to use</h2>
-<h3>Step 1: Remove the bootloader if you use Arduino Uno R3</h3>
+<h3>Step 1: Connect your device with your pc </h3>
+<image src="https://user-images.githubusercontent.com/57071897/148587262-f170750d-4494-4ed8-8cbd-ee3cd25fb1e3.png"></image>
+<h3>Step 2: Remove the bootloader if you use Arduino Uno R3</h3>
