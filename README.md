@@ -14,7 +14,7 @@ This github follow source from: https://www.nongnu.org/avr-libc/user-manual/inde
 <h2>Software Require</h2> 
 Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
 <p>Note:</p>
-<p> - On Windows, you can use Microchip Studio: https://onlinedocs.microchip.com/pr/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-2/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499</pr>
+<p> - On Windows, you can use Microchip Studio: https://onlinedocs.microchip.com/pr/GUID-54E8AE06-C4C4-430C-B316-1C19714D122B-en-US-2/index.html?GUID-8F63ECC8-08B9-4CCD-85EF-88D30AC06499</p>
 <p> - Install ProISP to upload code: http://dammedientu.vn/huong-dan-cach-nap-chuong-trinh-cho-atmega8-16-32-voi-mach-nap-usbisp-bid13-html/ 
 <h2>How to use</h2>
 <h3>Step 1: Connect your device with your pc </h3>
@@ -27,5 +27,10 @@ avrdude -p m328p -c usbasp -e
 </pre>
 <h3>Step 3: Get my example</h3>
 <pre>
-
+git clone https://github.com/dotai315/ATmega328P-Example.git
+</pre>
+<h3>Step 4: First Example</h3>
+<p> On Linux </p>
+<pre>
+cd Get_Started
 </pre>
