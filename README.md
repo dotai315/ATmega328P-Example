@@ -18,5 +18,5 @@ Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
 <p> - Install ProISP to upload code: http://dammedientu.vn/huong-dan-cach-nap-chuong-trinh-cho-atmega8-16-32-voi-mach-nap-usbisp-bid13-html/ 
 <h2>How to use</h2>
 <h3>Step 1: Connect your device with your pc </h3>
-<image src="https://user-images.githubusercontent.com/57071897/148587262-f170750d-4494-4ed8-8cbd-ee3cd25fb1e3.png"></image>
+<image src="https://user-images.githubusercontent.com/57071897/148587262-f170750d-4494-4ed8-8cbd-ee3cd25fb1e3.png" style="width:400px;height:400px;></image>
 <h3>Step 2: Remove the bootloader if you use Arduino Uno R3</h3>
