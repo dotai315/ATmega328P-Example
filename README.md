@@ -23,7 +23,8 @@ Follow this link: https://www.nongnu.org/avr-libc/user-manual/install_tools.html
 <h3>Step 2: Remove the bootloader if you use Arduino Uno R3</h3>
 <p>With avrdude and usbasp</p>
 <pre>
-avrdude -p m328p -c usbasp -e 
+avrdude -p m328p -c usbasp -e
+erase 
 </pre>
 <p>With proisp</p>
 press ERASE button on proisp program
